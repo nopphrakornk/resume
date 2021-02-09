@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.1.20)  3 FEB 2021 23:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.1.20)  9 FEB 2021 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -317,12 +317,12 @@ ut line 91.
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 103.
+(Font)              <7> on input line 110.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 103.
+(Font)              <5> on input line 110.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 138.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
+(Font)              <9> on input line 142.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
 
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -333,22 +333,22 @@ This may cause the page layout to be inconsistent, however.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
  (./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 1BC580AB68F2EABC8BFB7717245CC3DA;205.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
  ) 
 Here is how much of TeX's memory you used:
- 7715 strings out of 483140
- 114369 string characters out of 5965151
- 377137 words of memory out of 5000000
- 22615 multiletter control sequences out of 15000+600000
+ 7716 strings out of 483140
+ 114393 string characters out of 5965151
+ 379161 words of memory out of 5000000
+ 22616 multiletter control sequences out of 15000+600000
  540108 words of font info for 54 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 34i,11n,45p,412b,316s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,11n,45p,412b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/nop/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
 > </home/nop/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk>
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<
@@ -363,9 +363,9 @@ nts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type
 /amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmtt10.pfb>
-Output written on resume.pdf (1 page, 145578 bytes).
+Output written on resume.pdf (1 page, 147959 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)

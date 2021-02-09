@@ -23,7 +23,7 @@
      anchorcolor = blue,
      citecolor = blue,
      filecolor = blue,
-     urlcolor =Mulberry
+     urlcolor = BlueViolet
      }
 
 
@@ -50,7 +50,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large\color{Plum}
+  \vspace{-4pt}\scshape\raggedright\large\color{BlueViolet}
 }{}{0em}{}[\color{Gray}\titlerule \vspace{-5pt}]
 
 %-------------------------
@@ -97,14 +97,18 @@
 \resumeSubHeadingListStart
   
   
-\resumeSubheading{Kaidee.com}{Bangkok, Thailand}{Data Scientist}{July 2020-Present}
+\resumeSubheading{Kaidee.com}{Bangkok, Thailand}{Data Scientist}{July 2020 - Present}
 	\resumeItemListStart
-      	\resumeItem{Attribute-to-Price Regressor}{atp}
-      	\resumeItem{Title-to-Category Classifier}{ttc}
-      	\resumeItem{Title-to-Price Regressor}{ttp}
+      	\resumeItem{Post Page Suggestion API}
+      	{Built and deployed an api for suggestions on the listing page. The api contains three main models: \textit{Atrributes-to-Price Regressor}, \textit{Title-to-Category Classifier} and \textit{Title-to-Price Regressor}. All models in the api are updated and retrained weekly.}
+      		\resumeItemListStart
+      			\resumeItem{Attribute-to-Price Regressor}{Built a pipeline of autoencoder and multilayer perceptrons models. The autoencoder scores the uniqueness of a vehicle given attributes where the multilayer perceptron suggests the price of the vehicle given encoded attributes.}
+      			\resumeItem{Title-to-Category Classifier}{Implemented a CNN classifier to predict the category given ad listing text. Created a more streamlined listing experience.}
+      			\resumeItem{Title-to-Price Regressor}{Implemented a CNN regressor to suggest 3 prices given ad listing text. The model is train with quantile loss to suggest price bounds.}
+   			\resumeItemListEnd
+
+   		\resumeItem{Search Term Extraction}{Implemented a CNN model that predicts the top ten search terms given ad listing's title and description. Aim to improve SEO.}
    	\resumeItemListEnd
-      	
-      
   \resumeSubheading{Moonlight Brunch}{New York, NY}{Data Scientist Intern}{Summer 2019}
    	\resumeItemListStart
    		\resumeItem{News Headline Categorization}{Web scraped news headline from multiple sources and implemented a pipeline that preprocess text used for topic modeling through LDA.}
@@ -135,7 +139,7 @@
 \section{Technical Skills}
  \resumeSubHeadingListStart
    \resumeItem{
-     \textbf{Technical}}{Python (\footnotesize{Pandas, Scikit-Learn, PyTorch, PySpark}), SQL, Hadoop, \LaTeX}
+     \textbf{Technical}}{Python (\footnotesize{Pandas, PyTorch, Scikit-Learn, PySpark}), SQL, Hadoop, \LaTeX}
 \resumeItem{
      \textbf{Languages}}{\normalfont  English, Mandarin, Thai}
  \resumeSubHeadingListEnd
