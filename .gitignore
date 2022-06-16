@@ -3,3 +3,5 @@
 *.synctex.gz
 *.log
 *.dvi
+*.fdb_latexmk
+*.fls
