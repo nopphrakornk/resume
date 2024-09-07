@@ -1,3 +1,4 @@
-tex/
+tex/*
 data/
 __pycache__/
+!tex/resume_nop.tex

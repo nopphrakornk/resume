@@ -1,0 +1,159 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{CJKutf8}
+\usepackage{fontawesome}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\hypersetup{
+     colorlinks = true,
+     linkcolor = blue,
+     anchorcolor = blue,
+     citecolor = blue,
+     filecolor = blue,
+     urlcolor = BlueViolet
+     }
+
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\color{BlueViolet}
+}{}{0em}{}[\color{Gray}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[5]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{#1} \hspace{1pt} \textit{{\footnotesize#2}} & \small{#3} \\
+    \small{#4} & \textit{\small #5}
+  \end{tabular*}\vspace{-3pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+ \textbf{\Huge \begin{CJK*}{UTF8}{bsmi}黃俊城\end{CJK*}}
+    &   \href{https://github.com/nopphrakornk}
+    {\faicon{github-square}\ github.com/nopphrakornk}\\ 
+    \href{mailto:nopphrakorn.k@gmail.com}{\faEnvelope \ nopphrakorn.k@gmail.com} &
+    \href{https://www.linkedin.com/in/nopphrakorn-kerdsamut/}
+    {\faLinkedinSquare \ linkedin.com/in/nopphrakorn-kerdsamut} 
+
+\end{tabular*}
+
+
+%-----------EXPERIENCE-----------------
+\section{Experiences}
+\resumeSubHeadingListStart
+\resumeSubheading{\href{https://www.pttep.com}{\color{Black} \large{PTTEP}}}{Oil \& Gas}{Bangkok, Thailand}{Data Science Officer}{Dec '21-}
+   	\resumeItemListStart
+     \resumeItem{In House developments}
+     {Consult, develop, deploy, support, and maintain projects from various departments.}
+     \resumeItemListStart
+        \resumeItem{Equipment Data Collection and Analysis}{Centralized and standardize equipment data using text models. Enabled reliability analyses aligned with Offshore \& Onshore Reliability Data (OREDA) standards.
+                                                            Unified webpage for display and verification from multiple data sources.}
+                                                            
+        \resumeItem{PR/PO Automation}{RPA that assigns weekly Purchase Requests (PRs) to procurement officers based on their workload. 
+                                      Once approved and verified by the officers,  the bot automatically generates templates to issue Purchase Orders (POs).}
+        \resumeItem{Flowarm Integrity Inspection Optimization}{Enabled Data-Driven Decision Making strategy that optimized inspection intervals from corrosion data.}
+        \resumeItem{Stock Duplication Detection}{Leveraged text similarity with LLM to identify and eliminate duplicate items in stock inventory.}
+   	\resumeItemListEnd
+    \resumeItem{Outsourced developments}{Assist and oversee outsourced projects to ensure corporate standards.}
+    \resumeItem{Coporate Digital Transformation}{Deliver presentations and showcase projects to various departments 
+                                                 to drive the adoption of data science technologies.}
+    \resumeItem{Intership Mentor Program}{Guide and support internship students.}
+  \resumeItemListEnd  
+
+\resumeSubheading{\href{https://www.kaidee.com/en}{\color{Black}\large{Kaidee}\small{.com}}}{E-commerce}{Bangkok, Thailand}{Data Scientist}{July '20 - March '21}
+	\resumeItemListStart
+      	\resumeItem{Listing Page Suggestion APIs}
+      	{Built pytorch models to improve user's listing experience. 
+        All models are retrained weekly.}
+      		\resumeItemListStart
+      			\resumeItem{Vehicle Price Suggester}{Pipeline of autoencoder and multilayer perceptron model. 
+            The autoencoder scores the uniqueness of a vehicle and the MLP suggests the price.}
+      			\resumeItem{Category Recommender}{Convoluted neural network classifier to predict the category from listing text.}
+      			\resumeItem{Price Suggester}{Convoluted neural network regressor to suggest 3 prices from listing text. 
+            The model is train with quantile loss to suggest price bounds.}
+   			\resumeItemListEnd
+   		\resumeItem{Search Term Extraction}{Convoluted neural network that predicts the top ten search terms given listing's title and description.}
+   	\resumeItemListEnd  
+\resumeSubHeadingListEnd
+
+  %--------Technical Skills------------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \resumeItem{
+     \textbf{Languages}}{Python, git, SQL, HTML, jQuery, css, \LaTeX}
+\resumeItem{
+     \textbf{Spoken Languages}}{\normalfont  $\underbrace{\textrm{Thai}}_{Native}$ , $\underbrace{\textrm{English}}_{Fluent}$, $\underbrace{\textrm{Mandarin}}_{Colloquial}$}
+ \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://cds.nyu.edu/}{\color{Black}New York University}}{}
+      {Sept 2018 -- \textit{May 2020}}{M.Sc. in Data Science}{New York City, NY}
+        \resumeItemListStart
+            \resumeItem{Webpage Recommender Datathon}{Developed recommendation systems based on user interactions and website content.}
+            \resumeItem{NYC Datathon}{Analyzed and identified recurring NYC's subway system issues, and developed solutions to 
+                                      enhance operational efficiency and passenger experience.}
+        \resumeItemListEnd
+    \resumeSubheading
+      {\href{https://muic.mahidol.ac.th/eng/programs/undergraduate-programs/science/major-in-physics/}{\color{Black} Mahidol University International College}}{}
+      {Apr. 2014 -- Apr. 2018}{B.Sc. in Physics }{Nakhon Pathom, Thailand}
+    \resumeItemListStart
+      \resumeItem{Toxic Comment Classifiers}{Implemented and compared multiple models that predict comment toxicity.}
+  \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\end{document}
