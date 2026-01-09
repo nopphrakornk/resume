@@ -80,7 +80,8 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
- \textbf{\Huge \begin{CJK*}{UTF8}{bsmi}黃俊城\end{CJK*}}
+ \textbf{\Huge \begin{CJK*}{UTF8}{bsmi}黃俊城\end{CJK*} \Large (Nop)}
+%  \textbf{\Huge Nopphrakorn Kerdsamut \Large (Nop)}
     &   \href{https://github.com/nopphrakornk}
     {\faicon{github-square}\ github.com/nopphrakornk}\\ 
     \href{mailto:nopphrakorn.k@gmail.com}{\faEnvelope \ nopphrakorn.k@gmail.com} &
@@ -93,37 +94,30 @@
 %-----------EXPERIENCE-----------------
 \section{Experiences}
 \resumeSubHeadingListStart
-\resumeSubheading{\href{https://www.pttep.com}{\color{Black} \large{PTTEP}}}{Oil \& Gas}{Bangkok, Thailand}{Data Science Officer}{Dec '21-}
+\resumeSubheading{\href{https://www.pttep.com/en/our-company/pttep-overview}{\color{Black} \large{PTTEP}}}{Oil \& Gas}{Bangkok, Thailand}{Data Science Officer}{Dec '21-}
    	\resumeItemListStart
-     \resumeItem{In House developments}
-     {Consult, develop, deploy, support, and maintain projects from various departments.}
+     \resumeItem{In-House Solution Delivery}
+     {Directed the full software development lifecycle (consultation, development, deployment, and maintenance) for cross-departmental business tools.}
      \resumeItemListStart
-        \resumeItem{Equipment Data Collection and Analysis}{Consolidated equipment data from multiple sources and leveraged maintenance texts to predict appropriate 
-                                                            categories, enabling industry-standard analyses.}
-        \resumeItem{PR/PO Automation}{RPA that assigns weekly Purchase Requests (PRs) to procurement officers based on their workload. 
-                                      Once approved and verified by the officers,  the bot automatically generates templates to issue Purchase Orders (POs).}
-        \resumeItem{Flowarm Integrity Inspection Optimization}{Enabled Data-Driven Decision Making strategy that optimized inspection intervals from corrosion data.}
-        \resumeItem{Stock Duplication Detection}{Leveraged text similarity with LLM to identify and eliminate duplicate items in stock inventory.}
+        \resumeItem{Inventory Standardization (GenAI/LLM)}{Leveraged text similarity with LLM to identify and eliminate duplicate items in stock inventory.}
+        \resumeItem{Predictive Maintenance Analytics}{Consolidated equipment data from multiple sources and leveraged maintenance texts to predict appropriate categories, enabling industry-standard analyses.}
+        \resumeItem{Procurement Automation (RPA)}{Developed an RPA bot to streamline the PR-to-PO workflow; automated workload distribution for officers and auto-generated purchase orders upon verification, significantly reducing manual processing time.}
+        \resumeItem{Inspection Strategy Optimization}{Implemented a data-driven strategy to optimize "Flowarm" inspection intervals based on corrosion rates, reducing unnecessary downtime while ensuring safety compliance.}
    	\resumeItemListEnd
-    \resumeItem{Outsourced developments}{Assist and oversee outsourced projects to ensure corporate standards.}
-    \resumeItem{Coporate Digital Transformation}{Deliver presentations and showcase projects to various departments 
-                                                 to drive the adoption of data science technologies.}
-    \resumeItem{Intership Mentor Program}{Guide and support internship students.}
+    \resumeItem{Vendor \& Project Oversight (Outsourced)}{Managed external development teams to ensure technical alignment with corporate standards; conducted reviews and acceptance testing to guarantee quality deliverables.}
+    \resumeItem{Coporate Digital Transformation}{Championed the adoption of data science technologies by presenting high-impact use cases to stakeholders, driving a data-first culture across the organization.}
+    \resumeItem{Mentorship \& Team Growth}{Mentored and supervised internship cohorts, providing technical guidance, code reviews, and career development support.}
   \resumeItemListEnd  
 
 \resumeSubheading{\href{https://www.kaidee.com/en}{\color{Black}\large{Kaidee}\small{.com}}}{E-commerce}{Bangkok, Thailand}{Data Scientist}{July '20 - March '21}
 	\resumeItemListStart
-      	\resumeItem{Listing Page Suggestion APIs}
-      	{Built pytorch models to improve user's listing experience. 
-        All models are retrained weekly.}
+      	\resumeItem{Listing Optimization APIs (PyTorch)}
+      	{Developed a suite of deep learning models to enhance the seller experience, supported by an automated pipeline for weekly retraining and deployment.}
       		\resumeItemListStart
-      			\resumeItem{Vehicle Price Suggester}{Pipeline of autoencoder and multilayer perceptron model. 
-            The autoencoder scores the uniqueness of a vehicle and the MLP suggests the price.}
-      			\resumeItem{Category Recommender}{Convoluted neural network classifier to predict the category from listing text.}
-      			\resumeItem{Price Suggester}{Convoluted neural network regressor to suggest 3 prices from listing text. 
-            The model is train with quantile loss to suggest price bounds.}
+      			\resumeItem{Vehicle Price Valuation}{Architected a hybrid pipeline combining an Autoencoder for uniqueness/anomaly scoring and a Multilayer Perceptron (MLP) for precise price prediction.}
+      			\resumeItem{Category Classification}{Built a Convolutional Neural Network (CNN) for text classification to automatically categorize items based on listing descriptions.}
+      			\resumeItem{Dynamic Price Bounds}{Engineered a CNN regressor utilizing Quantile Loss to generate confidence intervals (low, mid, high), providing sellers with competitive pricing ranges rather than a single point estimate.}
    			\resumeItemListEnd
-   		\resumeItem{Search Term Extraction}{Convoluted neural network that predicts the top ten search terms given listing's title and description.}
    	\resumeItemListEnd  
 \resumeSubHeadingListEnd
 
